@@ -21,7 +21,6 @@ class EmployeeSalary:
     @classmethod
     def set_hourly_payment(cls, hourly_payment):
         cls.hourly_payment = hourly_payment
-        return cls.hourly_payment
     
     def salary(self):
         return self.hours * self.hourly_payment 
